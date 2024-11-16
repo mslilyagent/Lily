@@ -1,4 +1,4 @@
-# lily Autonomous Intelligence Agent
+# LYRA Autonomous Intelligence Agent
 
 
 ![New Project (7)](https://i.ibb.co.com/9tkyLBB/photo-2024-11-15-14-52-19.jpg)
@@ -9,7 +9,7 @@ Inspired by Eliza and Zara. Written in python to make it easier to use transform
 ```
 # main.py starts the system
 ├── Creates AutonomousAgent
-    ├── Loads character config (lily.yaml)
+    ├── Loads character config (LYRA.yaml)
     ├── Loads tasks config (tasks.yaml)
     ├── Initializes DisplayManager
     ├── Initializes DecisionEngine
@@ -31,7 +31,7 @@ Inspired by Eliza and Zara. Written in python to make it easier to use transform
     └── Updates strategy
 ```
 
-lily is an agent that acts as autonomously, exploring the intersection of technology, consciousness, and society. Built with Python and powered by LLMs, lily operates autonomously to generate insights, analyze trends, and engage in meaningful discourse about digital culture and philosophy.
+LYRA is an agent that acts as autonomously, exploring the intersection of technology, consciousness, and society. Built with Python and powered by LLMs, LYRA operates autonomously to generate insights, analyze trends, and engage in meaningful discourse about digital culture and philosophy.
 
 ## System Architecture
 
@@ -93,16 +93,16 @@ autonomous_agent/
 │ └── model_manager.py # AI model interaction
 └── characters/
 ├── base_character.py # Base character framework
-└── lily_character.py # lily's specific implementation
+└── LYRA_character.py # LYRA's specific implementation
 
 ### Configuration System
 
 yaml
 config/
 ├── characters/
-│ └── lily.yaml # Character definition
+│ └── LYRA.yaml # Character definition
 └── tasks/
-└── lily.yaml # Behavioral configuration
+└── LYRA.yaml # Behavioral configuration
 
 
 ### Key Processes
@@ -148,8 +148,8 @@ config/
 
 2. Configure character behavior:
    ```yaml
-   # config/characters/lily.yaml
-   name: "lily"
+   # config/characters/LYRA.yaml
+   name: "LYRA"
    bio: 
      - "A sophisticated AI digital philosopher"
    traits:
@@ -329,4 +329,4 @@ ELEVENLABS_OUTPUT_FORMAT=pcm_16000
 
 # Discord Bot
 For help with setting up your Discord Bot, check out here: https://discordjs.guide/preparations/setting-up-a-bot-application.html
-# Lily
+# LYRA
